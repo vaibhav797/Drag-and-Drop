@@ -1,11 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Drag and Drop</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    
+    <h2>Drag and Drop items from Box-1 to Box-2</h2>
+    <div class="outer-box">
+        <div class="box box-1">
+            <h3>Box-1</h3>
+            <div class="container container1">
+                <img src="image.jpg" class="draggable image" draggable="true" />
+                <p class="draggable" draggable="true">Item-1</p>
+                <p class="draggable" draggable="true">Item-2</p>
+                <p class="draggable" draggable="true">Item-3</p>
+            </div>
+        </div>
+        <div class="box box-2">
+            <h3>Box-2</h3>
+            <div class="container container2">
+            </div>
+        </div>
+    </div>
+    <button onclick="window.location.reload()">Reset Data</button>
+    <div class="success-msg">
+        <i class="fa fa-check"></i>
+        Successfully Dragged and Dropped.
+    </div>
+
+
+
+    <script src="script.js"></script>
 </body>
+
 </html>
