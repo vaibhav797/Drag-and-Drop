@@ -13,6 +13,7 @@ git clone https://github.com/vaibhav797/Drag-and-Drop.git
 
 - Open the index.html file on any browser from cloned repository.
 - Then you can use the Drag and Drop feature in it.
+- Elements can be dragged between themselves to change their positions.
 - Reset Button is used for returning to the default state.
 
 
